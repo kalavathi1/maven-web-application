@@ -15,7 +15,7 @@ app: mavenwebapp #this must in selector in service
 spec:
 containers:
 - name: mavenwebapp
-image: vamc123/maven-web-app
+image: kaladockerproject/maven-web:latest
 ports:
 - conatinerPort: 8080
 
